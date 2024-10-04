@@ -3,6 +3,8 @@
   height: 65vh;
   list-style: none;
   overflow-y: scroll;
+  scrollbar-color: black rgb(112, 112, 112);
+  scrollbar-width: thin;
   overflow-x: hidden;
 
   display: grid;
