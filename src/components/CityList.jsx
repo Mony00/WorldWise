@@ -11,6 +11,9 @@ function CityList() {
 
   if (!cities.length)
     return <Message message="Add your city by clicking on a city on the map" />;
+
+  // console.log(cities[0].position.lat);
+
   return (
     <ul className={styles.cityList}>
       {cities.map((city) => (

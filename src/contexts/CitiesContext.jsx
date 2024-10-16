@@ -9,6 +9,8 @@ function CitiesProvider({ children }) {
   const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState({});
 
+  console.log(cities);
+
   useEffect(function () {
     async function fetchCities() {
       try {
@@ -41,16 +43,19 @@ function CitiesProvider({ children }) {
   async function createCity(newCity) {
     try {
       setIsLoading(true);
-      //creatinf a post request
+      //creating a post request to an api
       const res = await fetch(`${BASE_URL}/cities`, {
         method: "POST",
         body: JSON.stringify(newCity),
-        header: {
+        headers: {
           "Content-Type": "application/json",
         },
       });
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
+      // add new city to the state, keep ui state in sink with remote state
+      //fine with small applications
+      setCities((cities) => [...cities, data]);
     } catch {
       alert("There was an error loading data...");
     } finally {

@@ -37,10 +37,64 @@
       "id": 98443197
     },
     {
+      "cityName": "Villar del Humo",
+      "country": "Spain",
+      "date": "2024-10-14T15:16:21.338Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.85915479295669",
+        "lng": "-1.6259765625"
+      },
       "id": 98443198
     },
     {
+      "cityName": "Moulay Bouchta",
+      "country": "Morocco",
+      "date": "2024-10-16T20:06:47.645Z",
+      "emoji": "🇲🇦",
+      "notes": "",
+      "position": {
+        "lat": "34.470335121217495",
+        "lng": "-5.119628906250001"
+      },
       "id": 98443199
+    },
+    {
+      "cityName": "Maisons-Alfort",
+      "country": "France",
+      "date": "2024-10-16T20:13:36.362Z",
+      "emoji": "🇫🇷",
+      "notes": "hehe",
+      "position": {
+        "lat": "48.80686346108519",
+        "lng": "2.4389648437500004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Alkmaar",
+      "country": "Netherlands (Kingdom of the)",
+      "date": "2024-10-16T20:18:49.109Z",
+      "emoji": "🇳🇱",
+      "notes": "happu",
+      "position": {
+        "lat": "52.62972886718355",
+        "lng": "4.812011718750001"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Swinice Warckie",
+      "country": "Poland",
+      "date": "2024-10-16T20:22:11.241Z",
+      "emoji": "🇵🇱",
+      "notes": "hello",
+      "position": {
+        "lat": "52.01193653675363",
+        "lng": "18.896484375000004"
+      },
+      "id": 98443202
     }
   ]
 }

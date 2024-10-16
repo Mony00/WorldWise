@@ -12,3 +12,7 @@ Currently, two official plugins are available:
   Configured the server from the data directory cities.json.
   Steps: installing json-server -> npm run server
   -> in the package.json: in the scripts: "server": "json-server --watch data/cities.json --port 9000 --delay 500"
+
+Creating cities: when clicking in a place on the map the latitude and longitude is updating appearing in the form the citys name from that coordinate. The city is created with the context API which is used with the useCities hook for simplicity.
+![image with the cities form](image.png)
+The add button will trigger the createCity function which xecutes a post request of the data in the JSON file and adds the new city to the state( to be in sink with the remote state).
